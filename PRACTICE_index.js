@@ -4,7 +4,9 @@
 
 
 // --------------------------------------------------------------------ADD ITEM-------------------------------------
-//NOTE: The code to add an item is overly complicated, it could have been as simple as the delete and check functions. I was experimenting with the "single function" principal of modularity
+//NOTE: The code to add an item is overly complicated, it could have been as simple as the delete and check functions. I was experimenting with the "single function" principal of modularity.
+//However, I do like how all functions are being called from one place at the bottom called handleShoppingList().
+
 function generateItemHTML(item){
     return `<li>
     <span class="shopping-item">${item}</span>
